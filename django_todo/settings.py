@@ -2,8 +2,6 @@ from pathlib import Path
 import os
 import dj_database_url
 import env
-if os.path.isfile("env.py"):
-    import env
 """
 Django settings for django_todo project.
 
